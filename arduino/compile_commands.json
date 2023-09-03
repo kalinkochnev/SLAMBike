@@ -1,0 +1,31 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/avr-g++",
+      "-c",
+      "-mmcu=atmega328p",
+      "-DF_CPU=16000000L",
+      "-DARDUINO=1819",
+      "-DARDUINO_ARCH_AVR",
+      "-D__PROG_TYPES_COMPAT__",
+      "-I/usr/share/arduino/hardware/arduino/avr/cores/arduino",
+      "-I/usr/share/arduino/hardware/arduino/avr/variants/standard",
+      "-Wall",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-Os",
+      "-pedantic",
+      "-Wall",
+      "-Wextra",
+      "-fpermissive",
+      "-fno-exceptions",
+      "-std=gnu++11",
+      "-o",
+      "/home/kalin/Coding/SLAMBike/bin/uno/arduino/main.cpp.o",
+      "main.cpp"
+    ],
+    "directory": "/home/kalin/Coding/SLAMBike/arduino",
+    "file": "/home/kalin/Coding/SLAMBike/arduino/main.cpp",
+    "output": "/home/kalin/Coding/SLAMBike/bin/uno/arduino/main.cpp.o"
+  }
+]
